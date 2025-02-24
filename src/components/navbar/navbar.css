@@ -1,16 +1,41 @@
-.nav{
-    margin: 0px;
-    padding: 0px;
-}
-.nav-left{
+/* Navbar หลัก */
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-ul{
+  }
+  
+  /* ชื่อเว็บไซต์ */
+  .nav-left {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* เมนู */
+  .nav ul {
     list-style: none;
-    padding: 0px 10px;    
-}
-li{
-    padding: 0px 10px;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* ลิงก์ */
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  

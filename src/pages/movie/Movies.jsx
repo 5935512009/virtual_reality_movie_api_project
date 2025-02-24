@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import './movie.css'
 function Movies() {
   const [items, setItems] = useState([]);
   const [search, setSearch] = useState("");

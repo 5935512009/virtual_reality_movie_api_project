@@ -9,7 +9,7 @@ function Navbar() {
         Movie virtual reality
         <ul>
             <li>
-                <Link to="./">Home</Link>
+                {/* <Link to="./">Home</Link> */}
                 <Link to="./movies">Movies</Link>
             </li>
         </ul>

@@ -1,3 +1,48 @@
-.movie{
-    color: black;
-}
+/* Container หลัก */
+.movies {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Search Bar */
+  .movies-filter {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* รายการหนัง */
+  .item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: left;
+    background-color: #f9f9f9;
+  }
+  
+  /* รูปภาพ */
+  .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* รายละเอียดหนัง */
+  .item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .item strong {
+    color: #000;
+  }
+  

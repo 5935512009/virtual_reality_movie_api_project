@@ -23,7 +23,7 @@ The page will reload when you make changes. You may also see any lint errors in 
 
 
 ### check list project
-1. ค้นหาชื่อของภาพยนต์
+1. ค้นหาชื่อของภาพยนต์  [completed]
 2. สามารถเพิ่มราคาของหนังแต่ละเรื่อง
 3. สามารถเลือกสินค้าใส่ตะกร้าได้
 4. เมื่อซื้อหนังมากกว่า 3 รายการลด 10%, มากกว่า 5 รายการลด 20%
