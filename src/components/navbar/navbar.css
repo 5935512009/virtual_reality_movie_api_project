@@ -1,0 +1,16 @@
+.nav{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0px 10px;    
+}
+li{
+    padding: 0px 10px;
+}
